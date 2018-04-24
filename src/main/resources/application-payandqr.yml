@@ -1,0 +1,49 @@
+#使用借用的账号，能进行公众号登陆、支付和扫码登陆的测试，不能用于模板消息推送的测试
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://10.108.149.183/sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+  redis:
+    host: 10.108.149.183
+    port: 6379
+#server:
+#  servlet:
+#    context-path: /sell
+
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+##  path: D:\SellLogs
+#  file: D:\SellLogs\sell.log
+#  level:
+#    com.oldmanw.sell.LoggerTest: debug
+
+wechat:
+#  mpAppId: wx67c842c73fadb5a9
+#  mpAppSecret: 02f50942d5dc859232a2ba51f3701d86
+  mpAppId: wxd898fcb01713c658
+  mpAppSecret: 29d8a650db31472aa87800e3b0d739f2
+  openAppId: wx6ad144e54af67d87
+  openAppSecret: 91a2ff6d38a2bbccfb7e9f9079108e2e
+  mchId: 1483469312
+  mchKey: C5245D70627C1F8E9964D494B0735025
+#  keyPath: src/main/java/com/oldmanw/sell/weixin_cert/h5.p12
+  keyPath: D:\weixin_cert\h5.p12
+  notifyUrl: http://sell123.nat300.top/notify
+  templateId:
+      orderStatus:
+
+projecturl:
+  wechatMpAuthorize: http://sell123.nat300.top
+  wechatOpenAuthorize: http://sell123.nat300.top
+  sell: http://sell123.nat300.top
+
+openid:
+  mpOpenid: oTgZpwUdGKDE-wuCBPqxLrzEupwk
+

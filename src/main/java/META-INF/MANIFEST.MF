@@ -1,0 +1,50 @@
+Manifest-Version: 1.0
+Class-Path: spring-tx-5.0.5.RELEASE.jar spring-boot-starter-aop-2.0.1.
+ RELEASE.jar logback-core-1.2.3.jar logback-classic-1.2.3.jar slf4j-ap
+ i-1.7.25.jar spring-context-5.0.5.RELEASE.jar stax-1.2.0.jar hibernat
+ e-commons-annotations-5.0.1.Final.jar jcl-over-slf4j-1.7.25.jar sprin
+ g-boot-starter-logging-2.0.1.RELEASE.jar spring-data-jpa-2.0.6.RELEAS
+ E.jar spring-boot-starter-freemarker-2.0.1.RELEASE.jar jackson-dataty
+ pe-jsr310-2.9.5.jar lettuce-core-5.0.3.RELEASE.jar spring-boot-starte
+ r-2.0.1.RELEASE.jar netty-transport-4.1.23.Final.jar xstream-1.4.9.ja
+ r okhttp-3.8.0.jar tomcat-embed-el-8.5.29.jar snakeyaml-1.19.jar Hika
+ riCP-2.7.8.jar spring-boot-configuration-processor-2.0.1.RELEASE.jar 
+ spring-boot-starter-tomcat-2.0.1.RELEASE.jar javax.transaction-api-1.
+ 2.jar jersey-client-2.26.jar simple-xml-2.7.1.jar weixin-java-mp-3.0.
+ 0.jar hibernate-core-5.2.16.Final.jar netty-buffer-4.1.23.Final.jar t
+ omcat-embed-websocket-8.5.29.jar spring-jdbc-5.0.5.RELEASE.jar spring
+ -boot-starter-web-2.0.1.RELEASE.jar netty-codec-4.1.23.Final.jar stax
+ -api-1.0.1.jar spring-data-redis-2.0.6.RELEASE.jar guava-20.0.jar spr
+ ing-expression-5.0.5.RELEASE.jar dom4j-1.6.1.jar spring-oxm-5.0.5.REL
+ EASE.jar jersey-common-2.26.jar httpclient-4.5.5.jar commons-codec-1.
+ 11.jar aspectjweaver-1.8.13.jar converter-simplexml-2.3.0.jar xpp3_mi
+ n-1.1.4c.jar junit-4.12.jar javassist-3.22.0-GA.jar jackson-module-pa
+ rameter-names-2.9.5.jar javax.inject-2.5.0-b42.jar httpmime-4.5.5.jar
+  jackson-datatype-jdk8-2.9.5.jar httpcore-4.4.9.jar xpp3-1.1.3.3.jar 
+ jul-to-slf4j-1.7.25.jar commons-io-2.5.jar hibernate-validator-6.0.9.
+ Final.jar jersey-apache-connector-2.23.2.jar hibernate-jpa-2.1-api-1.
+ 0.0.Final.jar hamcrest-core-1.3.jar retrofit-2.3.0.jar spring-data-co
+ mmons-2.0.6.RELEASE.jar spring-boot-starter-data-redis-2.0.1.RELEASE.
+ jar log4j-api-2.10.0.jar okio-1.13.0.jar osgi-resource-locator-1.0.1.
+ jar joda-time-2.9.9.jar spring-core-5.0.5.RELEASE.jar xmlpull-1.1.3.1
+ .jar spring-jcl-5.0.5.RELEASE.jar netty-handler-4.1.23.Final.jar spri
+ ng-web-5.0.5.RELEASE.jar spring-orm-5.0.5.RELEASE.jar spring-webmvc-5
+ .0.5.RELEASE.jar freemarker-2.3.28.jar reactive-streams-1.0.2.jar ant
+ lr-2.7.7.jar spring-boot-starter-websocket-1.5.12.RELEASE.jar reactor
+ -core-3.1.6.RELEASE.jar tomcat-embed-core-8.5.29.jar commons-lang3-3.
+ 7.jar gson-2.8.2.jar log4j-to-slf4j-2.10.0.jar jackson-core-2.9.5.jar
+  jandex-2.0.3.Final.jar spring-messaging-5.0.5.RELEASE.jar netty-comm
+ on-4.1.23.Final.jar netty-resolver-4.1.23.Final.jar spring-websocket-
+ 5.0.5.RELEASE.jar spring-context-support-5.0.5.RELEASE.jar spring-dat
+ a-keyvalue-2.0.6.RELEASE.jar spring-beans-5.0.5.RELEASE.jar mysql-con
+ nector-java-5.1.46.jar jackson-databind-2.9.5.jar spring-boot-2.0.1.R
+ ELEASE.jar tomcat-annotations-api-8.5.29.jar spring-aspects-5.0.5.REL
+ EASE.jar jboss-logging-3.3.2.Final.jar spring-boot-starter-json-2.0.1
+ .RELEASE.jar spring-boot-autoconfigure-2.0.1.RELEASE.jar spring-boot-
+ starter-data-jpa-2.0.1.RELEASE.jar weixin-java-common-3.0.0.jar lombo
+ k-1.16.20.jar classmate-1.3.4.jar validation-api-2.0.1.Final.jar best
+ -pay-sdk-1.1.0.jar spring-boot-starter-jdbc-2.0.1.RELEASE.jar jackson
+ -annotations-2.9.0.jar javax.annotation-api-1.3.2.jar javax.ws.rs-api
+ -2.1.jar spring-aop-5.0.5.RELEASE.jar
+Main-Class: com.oldmanw.sell.SellApplication
+

@@ -1,0 +1,48 @@
+#使用自己的测试账号，仅能用于公众号登陆和模板消息推送的测试
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://10.108.149.183/sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+  redis:
+    host: 10.108.149.183
+    port: 6379
+#server:
+#  servlet:
+#    context-path: /sell
+
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+##  path: D:\SellLogs
+#  file: D:\SellLogs\sell.log
+#  level:
+#    com.oldmanw.sell.LoggerTest: debug
+
+wechat:
+#  mpAppId: wx67c842c73fadb5a9
+#  mpAppSecret: 02f50942d5dc859232a2ba51f3701d86
+  mpAppId: wx82ab8a8c4f11f34a
+  mpAppSecret: 6aa74263b9fddac1b3791edd05bd8159
+  openAppId:
+  openAppSecret:
+  mchId:
+  mchKey:
+  keyPath:
+  notifyUrl:
+  templateId:
+    orderStatus: QSlnzyPuV84mz46tLeNptp4Nr6ZQczRLxxfWP4SnBag
+
+projecturl:
+  wechatMpAuthorize: http://sell123.nat300.top
+  wechatOpenAuthorize: http://sell123.nat300.top
+  sell: http://sell123.nat300.top
+
+openid:
+  mpOpenid: oUV9C0ThMy9qVueX6z8JVBuSWcfY
+
