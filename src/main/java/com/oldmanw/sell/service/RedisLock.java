@@ -45,6 +45,7 @@ public class RedisLock {
     public void unlock(String key, String value) {
         try {
             String currentValue = redisTemplate.opsForValue().get(key);
+            //如果锁没有被其他线程持有，删除锁
             if (!StringUtils.isEmpty(currentValue) && currentValue.equals(value)) {
                 redisTemplate.opsForValue().getOperations().delete(key);
             }
