@@ -24,12 +24,12 @@ public class RedisLock {
             return true;
         }
 
-        String currentValue = redisTemplate.opsForValue().get(key);
+        String oldValue1 = redisTemplate.opsForValue().get(key);
         //如果锁过期
-        if (!StringUtils.isEmpty(currentValue) && Long.parseLong(currentValue) < System.currentTimeMillis()) {
+        if (!StringUtils.isEmpty(oldValue1) && Long.parseLong(oldValue1) < System.currentTimeMillis()) {
             //获取上一个锁的时间
-            String oldValue = redisTemplate.opsForValue().getAndSet(key, value);
-            if (!StringUtils.isEmpty(oldValue) && oldValue.equals(currentValue)) {
+            String oldValue2 = redisTemplate.opsForValue().getAndSet(key, value);
+            if (!StringUtils.isEmpty(oldValue2) && oldValue2.equals(oldValue1)) {
                 return true;
             }
         }
